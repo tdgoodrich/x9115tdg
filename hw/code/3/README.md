@@ -9,4 +9,4 @@ Employee class
 <img src="employee.PNG" style="width: 600px;"/>
 
 Poker hand estimation
-<img src="sa.PNG" style="width: 600px;"/>
+<img src="pokerhand.PNG" style="width: 300px;"/>
