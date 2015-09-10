@@ -135,7 +135,11 @@ class PokerHand(Hand):
                 self.label = name
                 return
 
-def estimateProbabilities(cardsPerHand=5, runs=1000):
+def estimateProbabilities(cardsPerHand=5, runs=1000, seed=42):
+    random.seed(seed)
+    print "Poker hand estimation"
+    print "Parameters:\n   cardsPerHand: %d\n   runs: %d\n   seed: %d\n" %(cardsPerHand, runs, seed)
+
     # Prep a result dict
     result = {}
     for label in PokerHand.handLabels:
@@ -154,14 +158,11 @@ def estimateProbabilities(cardsPerHand=5, runs=1000):
         result[key] = value/(runs*(10.0))*100
     return result
 
-def nicePrint(result, runs=None):
+def nicePrint(result):
     print "%-18s %-8s\n%-18s %-8s" % ("Label", "Percent", "-"*18, "-"*8)
     for label in PokerHand.handLabels:
         print "%-18s %0.4f%%" % (label, result[label])
-    if runs != None:
-        print "(after %d runs)" % runs
-
 
 if __name__ == '__main__':
     runs = 10000
-    nicePrint(estimateProbabilities(runs=runs), runs=runs)
+    nicePrint(estimateProbabilities(runs=runs))
