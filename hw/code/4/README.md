@@ -1,4 +1,4 @@
 ## Solution
 
 ### Output
-<img src="output.png" style="width: 500px;"/>
+<img src="sa.png" style="width: 600px;"/>
