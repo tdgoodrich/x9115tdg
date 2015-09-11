@@ -35,16 +35,19 @@ def printHeader(seed, kmax, initialSol, neighborRadius):
 def printUpdate(k, bestSol, bestEn):
 	say("\n%4d : %-10g   %-15g |  " % (k, bestSol, bestEn))
 
-def sa(seed=42, kmax=1000, initialSol=100, neighborRadius=500):
+def sa(seed=42, kmax=1000, initialSol=None, neighborRadius=500):
 	random.seed(seed)
 	sampleMin, sampleMax = baselineStudy(1000)
 	sampleEMax = sampleMax - 100
 
-	currSol = neighbor(0,10**5)
+	if initialSol == None:
+		currSol = neighbor(0,10**5)
+	else:
+		currSol = initialSol
 	currEn = energy(sampleMin, sampleMax, f1, f2, currSol)
 	bestSol, bestEn = currSol, currEn
 	k = 0
-	printHeader(seed, kmax, initialSol, neighborRadius)
+	printHeader(seed, kmax, currSol, neighborRadius)
 	printUpdate(k, bestSol, bestEn)
 	while k < kmax:
 		k += 1
