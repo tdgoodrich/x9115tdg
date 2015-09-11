@@ -24,7 +24,7 @@ def energy(sampleMin, sampleMax, f1, f2, x):
 	return (float(f1(x) + f2(x) - sampleMin) / (sampleMax - sampleMin))
 
 def p(currEn, nextEn, t):
-	return math.exp(-1*(currEn-nextEn)/t)
+	return math.exp((currEn-nextEn)/t)
 
 def printHeader(seed, kmax, initialSol, neighborRadius):
 	print("Simulated Annealing on the Schaffer model")
@@ -58,7 +58,7 @@ def sa(seed=42, kmax=1000, initialSol=100, neighborRadius=500):
 		elif nextEn < currEn:
 			currSol, currEn = nextSol, nextEn
 			nextChar = "+"
-		elif p(currEn, nextEn, float(k)/kmax) < random.random():
+		elif p(currEn, nextEn, 1.001-float(k)/kmax) < random.random():
 			currSol, currEn = nextSol, nextEn
 			nextChar = "?"
 		say(nextChar)
