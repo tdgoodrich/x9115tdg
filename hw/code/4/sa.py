@@ -61,7 +61,7 @@ def sa(seed=42, kmax=1000, initialSol=None, neighborRadius=500):
 		elif nextEn < currEn:
 			currSol, currEn = nextSol, nextEn
 			nextChar = "+"
-		elif p(currEn, nextEn, 1.001-float(k)/kmax) < random.random():
+		elif p(currEn, nextEn, float(k)/kmax) < random.random():
 			currSol, currEn = nextSol, nextEn
 			nextChar = "?"
 		say(nextChar)
