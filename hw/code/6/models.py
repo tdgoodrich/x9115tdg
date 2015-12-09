@@ -53,6 +53,7 @@ class Schaffer(Model):
 		return (x[0]-2)**2
 	def __init__(self):
 		Model.__init__(self)
+		self.name = "Schaffer"
 		self.decisionRanges = [(-10**5, 10**5)]
 		self.objectives = [self.f1, self.f2]
 		self.constraints = []
@@ -80,6 +81,7 @@ class Osyczka2(Model):
 		return 0 <= (x[4]-3)**3 + x[5] - 4
 	def __init__(self):
 		Model.__init__(self)
+		self.name = "Osyczka2"
 		self.decisionRanges = [(0, 10), (0, 10), (1,  5)
 		                       (0,  6), (1,  5), (0, 10)]
 		self.objectives = [self.f1, self.f2]
@@ -95,17 +97,8 @@ class Kursawe(Model):
 	def __init__(self, a=0.8, b=3):
 		self.a, self.b = a, b
 		Model.__init__(self)
+		self.name = "Kursawe"
 		self.decisionRanges = [(-5, 5) for _ in xrange(3)]
 		self.objectives = [self.f1, self.f2]
 		self.constraints = []
 		self.energyFunction = Model.sumNormalizedEnergyFunction
-
-#def run(model):
-#	can = Candidate()
-#	can.decisions = [10**5]
-#	can = model.eval(can)
-#	print can.scores
-#	print can.energy
-#	print model.isValid(can)
-
-#run(Schaffer())
