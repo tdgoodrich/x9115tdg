@@ -1,0 +1,81 @@
+clear
+[3J[H[2Jpython code/de.py jedit
+Dataset  camel  Parameters:  20 0.3 0.75
+0
+Generation score:  0.119629684696
+1
+Generation score:  0.144713330395
+2
+Generation score:  0.157234856717
+3
+Generation score:  0.164770153958
+4
+Generation score:  0.181300218191
+5
+Generation score:  0.193860545467
+6
+Generation score:  0.203168937558
+7
+Generation score:  0.207076357178
+8
+Generation score:  0.212525451153
+9
+Generation score:  0.219413468646
+10
+Generation score:  0.222595251284
+11
+Generation score:  0.22309609692
+Run time:  222.564501047
+Average: Best: Settings:  0.222595251284 0.237029390032 [50, 2.8247049666867503, 0.27502931836911926]
+Dataset  camel  Parameters:  20 0.7 0.75
+0
+Generation score:  0.125693862669
+1
+Generation score:  0.140956690392
+2
+Generation score:  0.170182498745
+3
+Generation score:  0.185548204967
+4
+Generation score:  0.196921207514
+5
+Generation score:  0.198242887387
+6
+Generation score:  0.206405049036
+7
+Generation score:  0.20928415021
+8
+Generation score:  0.211068335246
+9
+Generation score:  0.215086208011
+10
+Generation score:  0.217964653969
+11
+Generation score:  0.219463588377
+12
+Generation score:  0.220828608427
+13
+Generation score:  0.221620853902
+Run time:  255.272495985
+Average: Best: Settings:  0.220828608427 0.234829422683 [49.124473001280826, 0, 0.6140442370101666]
+Dataset  camel  Parameters:  20 1.0 0.75
+0
+Generation score:  0.121685061707
+1
+Generation score:  0.149482390986
+2
+Generation score:  0.180563375166
+3
+Generation score:  0.196801116434
+4
+Generation score:  0.205822580315
+5
+Generation score:  0.213242721521
+6
+Generation score:  0.218051985178
+7
+Generation score:  0.220333110791
+8
+Generation score:  0.221190861566
+Run time:  186.168848038
+Average: Best: Settings:  0.220333110791 0.240364418272 [49.94188480443246, 0, 0.6945139331899095]
