@@ -98,27 +98,27 @@ For tables, we want to report three different F1 scores:
 **Table 1: Average Initial F1 scores**   
 | Optimizer: | **ant** | **camel** | **ivy** | **jedit** | **log4j** | **lucene** | **poi** | **synapse** | **velocity** | **xalan** | **xerces** |  
 |---|---|---|---|---|---|---|---|---|---|---|---|  
-| DE(f=0.3) | 56% | 12% | 37% | 14% | 96% | 74% | 82% | 62% | 58% | 99% | 86% |
-| DE(f=0.7) | 57% | 13% | 38% | 14% | 96% | 75% | 83% | 64% | 59% | 99% | 87% |
-| DE(f=1.0) | 57% | 12% | 37% | 15% | 96% | 75% | 83% | 64% | 59% | 99% | 87% |
+| DE(f=0.3) | 56% | 12% | 37% | 14% | 96% | 74% | 82% | 62% | 58% | 99% | 86% |  
+| DE(f=0.7) | 57% | 13% | 38% | 14% | 96% | 75% | 83% | 64% | 59% | 99% | 87% |  
+| DE(f=1.0) | 57% | 12% | 37% | 15% | 96% | 75% | 83% | 64% | 59% | 99% | 87% |  
 
 We see in Table 1 a wide range of prediction qualities: log4j and xalan start extremely well, lucene, poi and xerces start very strong, and camel and jedit start extremely weak. 
 
 **Table 1: Average Final F1 scores**   
 | Optimizer: | **ant** | **camel** | **ivy** | **jedit** | **log4j** | **lucene** | **poi** | **synapse** | **velocity** | **xalan** | **xerces** |  
 |---|---|---|---|---|---|---|---|---|---|---|---|  
-| DE(f=0.3) | 59% | 22% | 55% | 32% | 96% | 77% | 85% | 70% | 68% | 99% | 89% |
-| DE(f=0.7) | 59% | 22% | 55% | 32% | 96% | 78% | 85% | 69% | 68% | 99% | 89% |
-| DE(f=1.0) | 59% | 22% | 55% | 32% | 96% | 78% | 85% | 70% | 67% | 99% | 89% |
+| DE(f=0.3) | 59% | 22% | 55% | 32% | 96% | 77% | 85% | 70% | 68% | 99% | 89% |  
+| DE(f=0.7) | 59% | 22% | 55% | 32% | 96% | 78% | 85% | 69% | 68% | 99% | 89% |  
+| DE(f=1.0) | 59% | 22% | 55% | 32% | 96% | 78% | 85% | 70% | 67% | 99% | 89% |  
 
 After converging, DE improves most every prediction, doubling the ones with very bad starts (camel and jedit), and not making any improvements on the ones with very good starts (log4j and xalan).
 
 **Table 1: Best Final F1 scores**   
 | Optimizer: | **ant** | **camel** | **ivy** | **jedit** | **log4j** | **lucene** | **poi** | **synapse** | **velocity** | **xalan** | **xerces** |  
 |---|---|---|---|---|---|---|---|---|---|---|---|  
-| DE(f=0.3) | 60% | 23% | 56% | 36% | 96% | 78% | 85% | 71% | 68% | 99% | 90% |
-| DE(f=0.7) | 60% | 23% | 57% | 37% | 96% | 79% | 85% | 70% | 68% | 99% | 90% |
-| DE(f=1.0) | 60% | 23% | 56% | 36% | 96% | 79% | 85% | 71% | 68% | 99% | 90% |
+| DE(f=0.3) | 60% | 23% | 56% | 36% | 96% | 78% | 85% | 71% | 68% | 99% | 90% |  
+| DE(f=0.7) | 60% | 23% | 57% | 37% | 96% | 79% | 85% | 70% | 68% | 99% | 90% |  
+| DE(f=1.0) | 60% | 23% | 56% | 36% | 96% | 79% | 85% | 71% | 68% | 99% | 90% |  
 
 Looking at the best single scores, we see that most predictions go up by a percentage and not much more (excepting jedit). This suggests that the whole frontier has converged and not just a few high points. This result seems to suggest that some ideal parameters were found all over the board -- a common structure that could be utilized by something like graph theory. 
 
