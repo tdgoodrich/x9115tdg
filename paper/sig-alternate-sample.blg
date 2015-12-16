@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: sig-alternate-sample.aux
+The style file: acm.bst
+Database file #1: citations.bib
+You've used 20 entries,
+            2253 wiz_defined-function locations,
+            668 strings with 7798 characters,
+and the built_in function-call counts, 7767 in all, are:
+= -- 746
+> -- 390
+< -- 0
++ -- 164
+- -- 140
+* -- 672
+:= -- 1229
+add.period$ -- 58
+call.type$ -- 20
+change.case$ -- 129
+chr.to.int$ -- 0
+cite$ -- 20
+duplicate$ -- 262
+empty$ -- 604
+format.name$ -- 140
+if$ -- 1609
+int.to.chr$ -- 0
+int.to.str$ -- 20
+missing$ -- 19
+newline$ -- 101
+num.names$ -- 40
+pop$ -- 128
+preamble$ -- 1
+purify$ -- 110
+quote$ -- 0
+skip$ -- 179
+stack$ -- 0
+substring$ -- 523
+swap$ -- 78
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 78
+warning$ -- 0
+while$ -- 78
+width$ -- 22
+write$ -- 207

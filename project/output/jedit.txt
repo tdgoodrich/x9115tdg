@@ -1,0 +1,263 @@
+python code/de.py jedit
+Parameters:  20 0.3 0.5
+0
+Generation score:  0.136491710359
+1
+Generation score:  0.184178260193
+2
+Generation score:  0.196623811918
+3
+Generation score:  0.218391885319
+4
+Generation score:  0.234549583801
+5
+Generation score:  0.249829657729
+6
+Generation score:  0.268610170789
+7
+Generation score:  0.279595102008
+8
+Generation score:  0.302182896595
+9
+Generation score:  0.303374294522
+10
+Generation score:  0.30594486121
+11
+Generation score:  0.309164671357
+12
+Generation score:  0.312299125138
+13
+Generation score:  0.32197727161
+14
+Generation score:  0.323339585767
+15
+Generation score:  0.324164551651
+Run time:  197.764722824
+Average: Best: Settings:  0.323339585767 0.371050420168 [44.31306269194336, 0.6408410722564684, 0.541689859502027]
+Parameters:  20 0.3 0.75
+0
+Generation score:  0.13910320453
+1
+Generation score:  0.183302574876
+2
+Generation score:  0.218922446261
+3
+Generation score:  0.235539758143
+4
+Generation score:  0.247343527874
+5
+Generation score:  0.256748960133
+6
+Generation score:  0.282804916704
+7
+Generation score:  0.293970170839
+8
+Generation score:  0.30636557394
+9
+Generation score:  0.31523583059
+10
+Generation score:  0.3158874143
+Run time:  148.347989082
+Average: Best: Settings:  0.31523583059 0.357072110896 [45.14808054671804, 2.4878500493987588, 0.0]
+Parameters:  20 0.7 0.5
+0
+Generation score:  0.129825528502
+1
+Generation score:  0.157901039048
+2
+Generation score:  0.21873014676
+3
+Generation score:  0.243392276569
+4
+Generation score:  0.274476435873
+5
+Generation score:  0.285325648208
+6
+Generation score:  0.306938025998
+7
+Generation score:  0.310446195932
+8
+Generation score:  0.31401526031
+9
+Generation score:  0.316863646673
+10
+Generation score:  0.318190653544
+11
+Generation score:  0.319780203399
+12
+Generation score:  0.322601865398
+13
+Generation score:  0.325790156953
+14
+Generation score:  0.327637412095
+15
+Generation score:  0.328565899729
+Run time:  224.274613857
+Average: Best: Settings:  0.327637412095 0.358637985109 [43.874426481799844, 1.2297621585031049, 0.0]
+Parameters:  20 0.7 0.75
+0
+Generation score:  0.123687339893
+1
+Generation score:  0.15996170605
+2
+Generation score:  0.207786133257
+3
+Generation score:  0.224807255381
+4
+Generation score:  0.269712000905
+5
+Generation score:  0.290339406208
+6
+Generation score:  0.300572797
+7
+Generation score:  0.307689785676
+8
+Generation score:  0.312306744425
+9
+Generation score:  0.314135301489
+10
+Generation score:  0.318330837463
+11
+Generation score:  0.321266914458
+12
+Generation score:  0.326941423443
+13
+Generation score:  0.329265078546
+14
+Generation score:  0.330494459187
+15
+Generation score:  0.330494459187
+Run time:  261.036410093
+Average: Best: Settings:  0.330494459187 0.369996528526 [46.94614006825362, 0, 0.41167082710508174]
+Parameters:  50 0.3 0.5
+0
+Generation score:  0.13802376643
+1
+Generation score:  0.174596212502
+2
+Generation score:  0.205458886407
+3
+Generation score:  0.242904966665
+4
+Generation score:  0.263816940289
+5
+Generation score:  0.279343533293
+6
+Generation score:  0.291285361216
+7
+Generation score:  0.302478561915
+8
+Generation score:  0.310446094371
+9
+Generation score:  0.313280425171
+10
+Generation score:  0.318561695087
+11
+Generation score:  0.322436678045
+12
+Generation score:  0.325091244829
+13
+Generation score:  0.325668618001
+Run time:  473.564934969
+Average: Best: Settings:  0.325091244829 0.35580693816 [49.538277065685165, 0, 0.249101491576419]
+Parameters:  50 0.3 0.75
+0
+Generation score:  0.134625860403
+1
+Generation score:  0.166451514281
+2
+Generation score:  0.194408873239
+3
+Generation score:  0.241798989429
+4
+Generation score:  0.262687840894
+5
+Generation score:  0.281976322531
+6
+Generation score:  0.292817586702
+7
+Generation score:  0.306859036984
+8
+Generation score:  0.317118518645
+9
+Generation score:  0.319475221866
+10
+Generation score:  0.324296830311
+11
+Generation score:  0.32825847739
+12
+Generation score:  0.329727854201
+13
+Generation score:  0.330950528029
+14
+Generation score:  0.331937205633
+Run time:  609.39370513
+Average: Best: Settings:  0.330950528029 0.380306207953 [43.735086600552414, 0.22962043885639272, 1.0]
+Parameters:  50 0.7 0.5
+0
+Generation score:  0.165119418456
+1
+Generation score:  0.203771245484
+2
+Generation score:  0.241187777513
+3
+Generation score:  0.261989297779
+4
+Generation score:  0.278414129592
+5
+Generation score:  0.297274252247
+6
+Generation score:  0.30654782028
+7
+Generation score:  0.310996327546
+8
+Generation score:  0.312718215473
+9
+Generation score:  0.317085680264
+10
+Generation score:  0.318947440245
+11
+Generation score:  0.322686201048
+12
+Generation score:  0.325795734686
+13
+Generation score:  0.328158367261
+14
+Generation score:  0.328846589702
+Run time:  522.392292023
+Average: Best: Settings:  0.328158367261 0.376154684096 [43.72788899175631, 0, 0.04124008960137804]
+Parameters:  50 0.7 0.75
+0
+Generation score:  0.163083425255
+1
+Generation score:  0.199581299276
+2
+Generation score:  0.244078005597
+3
+Generation score:  0.268649702058
+4
+Generation score:  0.288074532359
+5
+Generation score:  0.301928250742
+6
+Generation score:  0.308731504352
+7
+Generation score:  0.315627302671
+8
+Generation score:  0.317765397027
+9
+Generation score:  0.321282269021
+10
+Generation score:  0.323815340513
+11
+Generation score:  0.326185666277
+12
+Generation score:  0.328272919982
+13
+Generation score:  0.32979829463
+14
+Generation score:  0.331192263842
+15
+Generation score:  0.331400474162
+Run time:  595.670773029
+Average: Best: Settings:  0.331192263842 0.367245564893 [41.11630721382931, 0.7375336792068263, 1.0]

@@ -1,0 +1,59 @@
+clear
+[3J[H[2Jpython code/de.py jedit
+Dataset  ant  Parameters:  20 0.3 0.75
+0
+Generation score:  0.563906605577
+1
+Generation score:  0.579924288348
+2
+Generation score:  0.5817880177
+3
+Generation score:  0.584266369532
+4
+Generation score:  0.585636988327
+5
+Generation score:  0.588672869705
+6
+Generation score:  0.590042798664
+7
+Generation score:  0.591297551472
+8
+Generation score:  0.592642999095
+9
+Generation score:  0.5937367265
+10
+Generation score:  0.594337478711
+Run time:  192.030793905
+Average: Best: Settings:  0.5937367265 0.600092924872 [50, 3.4867542223892345, 0.5892656838759087]
+Dataset  ant  Parameters:  20 0.7 0.75
+0
+Generation score:  0.568494835466
+1
+Generation score:  0.578132854817
+2
+Generation score:  0.585122132641
+3
+Generation score:  0.586216250505
+4
+Generation score:  0.588563956963
+5
+Generation score:  0.590618500902
+6
+Generation score:  0.591817500045
+7
+Generation score:  0.592804809332
+Run time:  142.060961962
+Average: Best: Settings:  0.591817500045 0.597858629239 [50, 8.316968051927969, 0.0]
+Dataset  ant  Parameters:  20 1.0 0.75
+0
+Generation score:  0.56855254962
+1
+Generation score:  0.581059196424
+2
+Generation score:  0.584863698934
+3
+Generation score:  0.586257907589
+4
+Generation score:  0.586934602141
+Run time:  90.3778600693
+Average: Best: Settings:  0.586257907589 0.595392083879 [49.559859566188145, 5.394083003974512, 0.07455132384201629]

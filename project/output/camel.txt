@@ -1,0 +1,85 @@
+python code/de.py camel
+Dataset  camel  Parameters:  20 0.3 0.75
+0
+Generation score:  0.120234542305
+1
+Generation score:  0.147217600539
+2
+Generation score:  0.160316533321
+3
+Generation score:  0.172152942297
+4
+Generation score:  0.188514236271
+5
+Generation score:  0.196087186722
+6
+Generation score:  0.204198296413
+7
+Generation score:  0.207022393809
+8
+Generation score:  0.216451585827
+9
+Generation score:  0.219193475635
+10
+Generation score:  0.220084728915
+Run time:  181.198896885
+Average: Best: Settings:  0.219193475635 0.231860430257 [50, 0.26986089150372705, 0.7566343172905435]
+Dataset  camel  Parameters:  20 0.7 0.75
+0
+Generation score:  0.125056517049
+1
+Generation score:  0.138302619427
+2
+Generation score:  0.172375174134
+3
+Generation score:  0.187227883974
+4
+Generation score:  0.202029185695
+5
+Generation score:  0.208011634914
+6
+Generation score:  0.211113927576
+7
+Generation score:  0.213862919233
+8
+Generation score:  0.215372104052
+9
+Generation score:  0.217064504851
+10
+Generation score:  0.21825782712
+11
+Generation score:  0.220283351034
+12
+Generation score:  0.220399440247
+Run time:  236.38015604
+Average: Best: Settings:  0.220283351034 0.23057033333 [50, 0, 0.0]
+Dataset  camel  Parameters:  20 1.0 0.75
+0
+Generation score:  0.118206230079
+1
+Generation score:  0.156624693697
+2
+Generation score:  0.18415616134
+3
+Generation score:  0.192426066334
+4
+Generation score:  0.203108580168
+5
+Generation score:  0.210918881713
+6
+Generation score:  0.213848802743
+7
+Generation score:  0.216149964461
+8
+Generation score:  0.217629873948
+9
+Generation score:  0.219625937161
+10
+Generation score:  0.221271214835
+11
+Generation score:  0.222504462044
+12
+Generation score:  0.223486021388
+Run time:  267.411864042
+Average: Best: Settings:  0.222504462044 0.232774296231 [50, 17.507587378585036, 0.0]
+Timothys-MacBook-Air:graphmodels tdgoodrich$ 

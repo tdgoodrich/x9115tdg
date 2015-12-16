@@ -1,0 +1,127 @@
+\begin{thebibliography}{10}
+
+\bibitem{afzal2009systematic}
+{\sc Afzal, W., Torkar, R., and Feldt, R.}
+\newblock A systematic review of search-based testing for non-functional system
+  properties.
+\newblock {\em Inf. Softw. Technol. 51}, 6 (June 2009), 957--976.
+
+\bibitem{alshahwan2011automated}
+{\sc Alshahwan, N., and Harman, M.}
+\newblock Automated web application testing using search based software
+  engineering.
+\newblock In {\em Automated Software Engineering (ASE), 2011 26th IEEE/ACM
+  International Conference on\/} (Nov 2011), pp.~3--12.
+
+\bibitem{alshraideh2006search}
+{\sc Alshraideh, M., and Bottaci, L.}
+\newblock Search-based software test data generation for string data using
+  program-specific search operators: Research articles.
+\newblock {\em Softw. Test. Verif. Reliab. 16}, 3 (Sept. 2006), 175--203.
+
+\bibitem{anand2013orchestrated}
+{\sc Anand, S., Burke, E., Chen, T., Clark, J., Cohen, M., Grieskamp, W.,
+  Harman, M., Harrold, M., and Mcminn, P.}
+\newblock An orchestrated survey of methodologies for automated software test
+  case generation.
+\newblock {\em J. Syst. Softw. 86}, 8 (Aug. 2013), 1978--2001.
+
+\bibitem{artzi2010finding}
+{\sc Artzi, S., Kiezun, A., Dolby, J., Tip, F., Dig, D., Paradkar, A., and
+  Ernst, M.}
+\newblock Finding bugs in web applications using dynamic test generation and
+  explicit-state model checking.
+\newblock {\em Software Engineering, IEEE Transactions on 36}, 4 (July 2010),
+  474--494.
+
+\bibitem{bouwersphp}
+{\sc Bouwers, E., and Bravenboer, M.}
+\newblock Php-front: Static analysis for php.
+
+\bibitem{bravenboer2008stratego}
+{\sc Bravenboer, M., Kalleberg, K., Vermaas, R., and Visser, E.}
+\newblock Stratego/xt 0.17. a language and toolset for program transformation.
+\newblock {\em Sci. Comput. Program. 72}, 1-2 (June 2008), 52--70.
+
+\bibitem{glover1997tabu}
+{\sc Glover, F., and Laguna, M.}
+\newblock {\em Tabu Search}.
+\newblock Kluwer Academic Publishers, Norwell, MA, USA, 1997.
+
+\bibitem{halfond2009precise}
+{\sc Halfond, W., Anand, S., and Orso, A.}
+\newblock Precise interface identification to improve testing and analysis of
+  web applications.
+\newblock In {\em Proceedings of the Eighteenth International Symposium on
+  Software Testing and Analysis\/} (New York, NY, USA, 2009), ISSTA '09, ACM,
+  pp.~285--296.
+
+\bibitem{hamasaki2013who}
+{\sc Hamasaki, K., Kula, R., Yoshida, N., Cruz, A., Fujiwara, K., and Iida, H.}
+\newblock Who does what during a code review? datasets of oss peer review
+  repositories.
+\newblock In {\em Proceedings of the 10th Working Conference on Mining Software
+  Repositories\/} (Piscataway, NJ, USA, 2013), MSR '13, IEEE Press, pp.~49--52.
+
+\bibitem{harman2011software}
+{\sc Harman, M.}
+\newblock Software engineering meets evolutionary computation.
+\newblock {\em Computer 44}, 10 (Oct. 2011), 31--39.
+
+\bibitem{harman2012gismoe}
+{\sc Harman, M., Langdon, W., Jia, Y., White, D., Arcuri, A., and Clark, J.}
+\newblock The gismoe challenge: Constructing the pareto program surface using
+  genetic programming to find better programs (keynote paper).
+\newblock In {\em Proceedings of the 27th IEEE/ACM International Conference on
+  Automated Software Engineering\/} (New York, NY, USA, 2012), ASE 2012, ACM,
+  pp.~1--14.
+
+\bibitem{korel1990automated}
+{\sc Korel, B.}
+\newblock Automated software test data generation.
+\newblock {\em IEEE Trans. Softw. Eng. 16}, 8 (Aug. 1990), 870--879.
+
+\bibitem{krutz2015dataset}
+{\sc Krutz, D., Mirakhorli, M., Malachowsky, S., Ruiz, A., Peterson, J.,
+  Filipski, A., and Smith, J.}
+\newblock A dataset of open-source android applications.
+\newblock In {\em Proceedings of the 12th Working Conference on Mining Software
+  Repositories\/} (Piscataway, NJ, USA, 2015), MSR '15, IEEE Press,
+  pp.~522--525.
+
+\bibitem{mcminn2004search}
+{\sc McMinn, P.}
+\newblock Search-based software test data generation: A survey: Research
+  articles.
+\newblock {\em Softw. Test. Verif. Reliab. 14}, 2 (June 2004), 105--156.
+
+\bibitem{sourceforge}
+{\sc Media, S.}
+\newblock Sourceforge.
+
+\bibitem{michael2001generating}
+{\sc Michael, C., McGraw, G., and Schatz, M.}
+\newblock Generating software test data by evolution.
+\newblock {\em IEEE Trans. Softw. Eng. 27}, 12 (Dec. 2001), 1085--1110.
+
+\bibitem{storn1996differential}
+{\sc Storn, R., and Price, K.}
+\newblock Differential evolution \&ndash; a simple and efficient heuristic for
+  global optimization over continuous spaces.
+\newblock {\em J. of Global Optimization 11}, 4 (Dec. 1997), 341--359.
+
+\bibitem{wassermann2007sound}
+{\sc Wassermann, G., and Su, Z.}
+\newblock Sound and precise analysis of web applications for injection
+  vulnerabilities.
+\newblock {\em SIGPLAN Not. 42}, 6 (June 2007), 32--41.
+
+\bibitem{wassermann2008dynamic}
+{\sc Wassermann, G., Yu, D., Chander, A., Dhurjati, D., Inamura, H., and Su,
+  Z.}
+\newblock Dynamic test input generation for web applications.
+\newblock In {\em Proceedings of the 2008 International Symposium on Software
+  Testing and Analysis\/} (New York, NY, USA, 2008), ISSTA '08, ACM,
+  pp.~249--260.
+
+\end{thebibliography}
